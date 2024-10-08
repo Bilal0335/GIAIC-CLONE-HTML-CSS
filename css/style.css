@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", "Roboto", sans-serif;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+*::selection {
+  background: #0000ff;
+}
+:root {
+  --bg-color: rgb(4, 78, 131);
+  --text-color: rgb(250, 249, 246);
+}
+/* Navbar */
+nav {
+  background-color: rgb(4, 78, 131);
+  height: 4.75rem;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .nav_link ul {
+  display: flex;
+  margin: 0 1.875rem;
+  padding: 0.4rem;
+}
+nav .nav_link li a {
+  margin: auto 0.75rem;
+  color: rgb(250, 249, 246);
+  font-weight: 400;
+  cursor: pointer;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 5rem;
+}
+.logo img {
+  width: 65%;
+  object-fit: cover;
+  object-position: center;
+}
+.heading_tag span {
+  font-size: 18px;
+  color: rgb(185, 216, 243);
+  font-weight: 800;
+  margin: 0 auto;
+  line-height: 27px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fa-chevron-down {
+  font-size: 0.6875rem;
+  margin-left: 3px;
+  color: rgb(250, 249, 246);
+}
